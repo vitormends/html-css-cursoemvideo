@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <h1>IMAGENS DINAMICAS</h1>
+
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/img_p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/img_m.png" type="image/png">
+        <img src="imagens/img_g.png" alt="Imagem Flexivel">
+    </picture>
+
+    <!-- 
+        "midia" para definir a largura na hora de mudar a imagem, "srcset" para localizar a imagem
+        "type" para informar o tipo da imagem
+     -->
+
+     <H1>REPRODUÇÃO DE AUDIO</H1>
+     <audio src="midia/odjbox - lal.mp3" controls autoplay></audio>
+
+     <!-- 
+        "controls" para controlar, "autoplay" a musica toca quando abrir o site
+     -->
+
+     <h1>REPRODUÇAO DE AUDIO 2</h1>
+
+    <audio src="">
+        <source src="midia/odjbox - lal.mp3" type="audio/mp3" >
+    </audio>
+
+    <p>baixa <a href="midia/odjbox - lal.mp3">aqui</a></p>
+    
+</body>
+</html>
